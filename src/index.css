@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Alumni Sans", "Arial", sans-serif;
+}
+
+@font-face {
+  font-family: "Alumni Sans";
+  src: url("./fonts/AlumniSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

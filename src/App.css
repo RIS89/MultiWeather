@@ -1,0 +1,34 @@
+/* .header {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  height: 24px;
+  background-color: #060c26;
+} */
+.main_app {
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url("./icons/background.jpg"); */
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(224deg 100% 24%) 11%,
+    hsl(215deg 100% 26%) 21%,
+    hsl(208deg 100% 28%) 31%,
+    hsl(201deg 100% 29%) 42%,
+    hsl(201deg 54% 39%) 52%,
+    hsl(206deg 58% 38%) 62%,
+    hsl(216deg 49% 39%) 72%,
+    hsl(235deg 35% 41%) 81%,
+    hsl(265deg 40% 36%) 91%,
+    hsl(293deg 56% 27%) 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-y: hidden;
+}
+h1 {
+  color: #fff;
+}

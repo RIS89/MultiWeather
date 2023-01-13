@@ -1,0 +1,15 @@
+.wrapperWind {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .iconWind {
+  filter: invert(73%) sepia(0%) saturate(1%) hue-rotate(19deg) brightness(100%)
+    contrast(98%);
+  margin: auto 5px;
+} */
+
+.textWind {
+  color: #bababa;
+  font-size: 12px;
+}

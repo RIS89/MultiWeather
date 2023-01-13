@@ -1,0 +1,136 @@
+.wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  /* margin: 15px; */
+  /* width: 430px; */
+  padding: 10px;
+}
+/* .card {
+  width: 200px;
+  height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: rgba(17, 25, 40, 0.6);
+  margin: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(16px) saturate(180%);
+} */
+.big {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  height: 200px;
+  /* min-width: 400px;
+  min-height: 200px; */
+  background-color: rgba(17, 25, 40, 0.6);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(16px) saturate(180%);
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+}
+
+.iconWind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrappertemp {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.temper {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  /* text-align: center; */
+  color: white;
+  margin-left: 8px;
+}
+
+p {
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  margin: 8px;
+}
+
+.wind {
+  color: white;
+  display: flex;
+  text-align: center;
+  margin: auto auto;
+}
+
+.date {
+  font-size: 8px;
+}
+
+.info {
+  display: flex;
+  width: 400px;
+  height: 25px;
+  /* min-width: 400px;
+  min-height: 25px; */
+  background-color: rgba(17, 25, 40, 0.6);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(16px) saturate(180%);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoCity {
+  color: white;
+  font-size: 16px;
+  padding: 0 10px;
+  display: flex;
+}
+
+.infoTime {
+  color: white;
+  font-size: 11px;
+  padding: 0 10px;
+  font-weight: 500;
+  display: flex;
+}
+
+.icon {
+  margin: 15px 15px;
+}
+
+.phrase {
+  color: white;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  /* margin: 5px auto; */
+  text-align: center;
+}
+
+.update {
+  filter: invert(44%) sepia(77%) saturate(735%) hue-rotate(170deg)
+    brightness(91%) contrast(88%);
+  cursor: pointer;
+}
+.wrapperText {
+  height: 100%;
+  margin: auto 5px;
+}
+.remove {
+  filter: invert(16%) sepia(92%) saturate(7382%) hue-rotate(1deg)
+    brightness(104%) contrast(95%);
+  /* margin: auto 5px; */
+  cursor: pointer;
+}

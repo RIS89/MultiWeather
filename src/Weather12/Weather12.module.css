@@ -1,0 +1,34 @@
+.cart12 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .temp12 {
+    color: white;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+  
+  .time12 {
+    color: white;
+    font-size: 8px;
+    margin: 0 auto;
+  }
+  
+  .wrapper12 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .small {
+    display: flex;
+    width: 400px;
+    height: 65px;
+    min-width: 400px;
+    min-height: 65px;
+    background-color: rgba(17, 25, 40, 0.6);
+    /* margin: 10px; */
+    border-radius: 10px;
+    backdrop-filter: blur(16px) saturate(180%);
+  }
